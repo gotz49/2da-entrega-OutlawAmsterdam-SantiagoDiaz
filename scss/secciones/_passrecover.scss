@@ -1,0 +1,62 @@
+@import "../utilities/variables";
+
+.passRecover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montaga', serif;
+    color: $blancoPrincipal;
+    h1{
+        text-align: center;
+        margin: 20px;
+    }
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .email{
+            margin: 5px;
+            padding: 5px;
+            background-color: rgb(3, 3, 3);
+            width: 400px;
+            height: 40px;
+            border-style: solid;
+            border-width: 1px;
+            &::placeholder{
+                color: $blancoPrincipal;
+            }
+        }
+        .botonRecuperar{
+            margin: 5px;
+            padding: 5px;
+            background-color: $importantColor;
+            width: 400px;
+            height: 40px;
+            border-style: solid;
+            border-width: 1px;
+            text-transform: uppercase;
+            font-size: 13px;
+            &:hover{
+            transition: 0.45s;
+            background-color: black;
+            color: $blancoPrincipal;
+            }
+        }
+        
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Montaga', serif;
+        color: $blancoPrincipal;
+        &:hover{
+            color: $hoverOscuro;
+        }
+    }
+}
+    

@@ -1,0 +1,174 @@
+@import "utilities/variables";
+@import "secciones/tienda";
+@import "secciones/iniciarSesion";
+@import "secciones/lookbook";
+@import "secciones/passrecover";
+@import "secciones/cuentanueva";
+
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+//hoja de estilos del index
+
+body{
+    background-color: black;
+}
+
+main{
+    background-color: black;
+}
+
+/*estilos para la PRESENTACION*/
+
+.presentacion{
+    background-color: black;
+    background-image: url(../img/home/fondoindex.jpeg);
+    padding: 400px 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    p{
+        margin: 3px;
+        text-align: center;
+        position: relative;
+        font-family: 'Montaga', serif;
+        color: $blancoLlamativo;
+        font-weight: 550;
+    }
+    h1{
+        position: relative;
+        margin: 10px;
+        text-align: center;
+        font-family: 'Montaga', serif;
+        color: $blancoLlamativo;
+    }
+    a{
+        position: relative;
+        padding: 15px;
+        font-weight: 650;
+        text-decoration: none;
+        font-size: 11px;
+        font-family: 'Montaga', serif;
+        background-color: whitesmoke;
+        color: black;
+        &:hover{
+        background-color: black;
+        transition: 0.45s;
+        color: $blancoPrincipal;
+        border: solid $blancoPrincipal 1px;
+        }
+    }
+}
+
+/* seccion de compras populares*/ 
+
+.prodPopulares{
+    background-color: black;
+    p{
+        background-color: black;
+        font-family: 'Montaga', serif;
+        color: $blancoPrincipal;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    h2{
+        background-color: black;
+        font-family: 'Montaga', serif;
+        color: $blancoPrincipal;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    div{
+        font-family: 'Gentium Basic', serif;
+        font-size: 20px;
+        div{
+            h2{
+                font-family: 'Gentium Basic', serif;
+                font-size: 25px;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+/*inicio del footer*/
+footer{
+background-color: black;
+}
+.footer{
+margin-top: 200px;
+background-color: black;
+}
+
+
+/*redes sociales*/  
+.redesSociales{
+    h4{
+        font-family: 'Gentium Basic', serif;
+        font-size: 15px;
+        color: $blancoPrincipal;
+    }
+    nav{
+        ul{
+            li{
+                display: inline-block;
+                margin: 15px;
+            }
+        }
+    }
+}
+
+/*seccion de ayuda del footer*/ 
+.ayudaFooter{
+    h4{
+        font-family: 'Gentium Basic', serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: $blancoPrincipal;
+        margin-bottom: 15px;
+    }
+    nav{
+        ul{
+            p{
+                font-family: 'Gentium Basic', serif;
+                font-size: 15px;
+                color: $blancoPrincipal;
+                margin: 4px;
+            }
+        }
+    }
+}
+
+/*seccion de suscripcion al newsletter*/ 
+.newsletter{
+    p{
+        font-family: 'Gentium Basic', serif;
+        font-weight: 400;
+        color: $blancoPrincipal;
+        margin-bottom: 3px;
+    }
+}
+
+/*derechos reservados footer*/ 
+.derechos{
+    h5{
+        font-family: 'Gentium Basic', serif;
+        font-size: 15px;
+        color: $blancoPrincipal;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Gentium Basic', serif;
+        color: $blancoPrincipal;    
+    }
+}

@@ -1,0 +1,16 @@
+@import "../utilities/variables";
+
+.lookbook{
+    font-family: 'Montaga', serif;
+    color: $blancoPrincipal;
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,332 @@
+/*seccion de la TIENDA*/
+@import url(../utilities/_variables.scss);
+.tienda {
+  font-family: 'Gentium Basic', serif;
+  color: rgba(240, 248, 255, 0.842);
+  text-transform: uppercase; }
+  .tienda h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 50px; }
+  .tienda div div {
+    font-family: 'Gentium Basic', serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+/*seccion de INICIAR SESION*/
+.iniciarSesion {
+  font-family: 'Montaga', serif;
+  color: rgba(240, 248, 255, 0.842); }
+  .iniciarSesion h1 {
+    text-align: center;
+    margin: 20px; }
+  .iniciarSesion p {
+    text-align: center;
+    margin: 10px; }
+  .iniciarSesion form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .iniciarSesion form .email {
+      margin: 5px;
+      padding: 5px;
+      background-color: #030303;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px; }
+      .iniciarSesion form .email::placeholder {
+        color: rgba(240, 248, 255, 0.842); }
+    .iniciarSesion form .password {
+      margin: 5px;
+      padding: 5px;
+      background-color: #030303;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px; }
+      .iniciarSesion form .password::placeholder {
+        color: rgba(240, 248, 255, 0.842); }
+    .iniciarSesion form .forgotPassword {
+      position: absolute;
+      margin-top: 14px;
+      transform: translateX(-108%);
+      background-color: black;
+      border: none;
+      font-size: 14px; }
+      .iniciarSesion form .forgotPassword a {
+        text-decoration: none;
+        font-family: 'Montaga', serif;
+        color: rgba(240, 248, 255, 0.842); }
+        .iniciarSesion form .forgotPassword a:hover {
+          color: rgba(138, 138, 138, 0.842); }
+    .iniciarSesion form .iniciarSesionBoton {
+      margin: 5px;
+      padding: 5px;
+      background-color: #fec400;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      text-transform: uppercase;
+      font-size: 13px; }
+      .iniciarSesion form .iniciarSesionBoton:hover {
+        transition: 0.45s;
+        background-color: black;
+        color: rgba(240, 248, 255, 0.842); }
+    .iniciarSesion form .atajoRegistro {
+      text-decoration: none;
+      font-family: 'Montaga', serif;
+      color: rgba(240, 248, 255, 0.842); }
+      .iniciarSesion form .atajoRegistro:hover {
+        color: rgba(138, 138, 138, 0.842); }
+
+.lookbook {
+  font-family: 'Montaga', serif;
+  color: rgba(240, 248, 255, 0.842); }
+  .lookbook section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .lookbook section h2 {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+
+.passRecover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montaga', serif;
+  color: rgba(240, 248, 255, 0.842); }
+  .passRecover h1 {
+    text-align: center;
+    margin: 20px; }
+  .passRecover p {
+    text-align: center;
+    margin: 10px; }
+  .passRecover form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .passRecover form .email {
+      margin: 5px;
+      padding: 5px;
+      background-color: #030303;
+      width: 400px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px; }
+      .passRecover form .email::placeholder {
+        color: rgba(240, 248, 255, 0.842); }
+    .passRecover form .botonRecuperar {
+      margin: 5px;
+      padding: 5px;
+      background-color: #fec400;
+      width: 400px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      text-transform: uppercase;
+      font-size: 13px; }
+      .passRecover form .botonRecuperar:hover {
+        transition: 0.45s;
+        background-color: black;
+        color: rgba(240, 248, 255, 0.842); }
+  .passRecover a {
+    text-decoration: none;
+    font-family: 'Montaga', serif;
+    color: rgba(240, 248, 255, 0.842); }
+    .passRecover a:hover {
+      color: rgba(138, 138, 138, 0.842); }
+
+.cuentaNueva {
+  font-family: 'Montaga', serif;
+  color: rgba(240, 248, 255, 0.842);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cuentaNueva h1 {
+    text-align: center;
+    margin: 20px; }
+  .cuentaNueva p {
+    text-align: center;
+    margin: 10px; }
+  .cuentaNueva form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .cuentaNueva form div input {
+      margin: 5px;
+      padding: 5px;
+      background-color: #030303;
+      width: 400px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px; }
+      .cuentaNueva form div input::placeholder {
+        color: rgba(240, 248, 255, 0.842); }
+    .cuentaNueva form .crearCuenta {
+      margin: 5px;
+      padding: 5px;
+      background-color: #fec400;
+      width: 200px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      text-transform: uppercase;
+      font-size: 13px; }
+      .cuentaNueva form .crearCuenta:hover {
+        transition: 0.45s;
+        background-color: black;
+        color: rgba(240, 248, 255, 0.842); }
+    .cuentaNueva form .reset {
+      margin: 5px;
+      padding: 5px;
+      background-color: #fec400;
+      width: 200px;
+      height: 40px;
+      border-style: solid;
+      border-width: 1px;
+      text-transform: uppercase;
+      font-size: 13px; }
+      .cuentaNueva form .reset:hover {
+        transition: 0.45s;
+        background-color: black;
+        color: rgba(240, 248, 255, 0.842); }
+  .cuentaNueva a {
+    text-decoration: none;
+    font-family: 'Montaga', serif;
+    color: rgba(240, 248, 255, 0.842); }
+    .cuentaNueva a:hover {
+      color: rgba(138, 138, 138, 0.842); }
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+main {
+  background-color: black; }
+
+/*estilos para la PRESENTACION*/
+.presentacion {
+  background-color: black;
+  background-image: url(../img/home/fondoindex.jpeg);
+  padding: 400px 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center; }
+  .presentacion p {
+    margin: 3px;
+    text-align: center;
+    position: relative;
+    font-family: 'Montaga', serif;
+    color: white;
+    font-weight: 550; }
+  .presentacion h1 {
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Montaga', serif;
+    color: white; }
+  .presentacion a {
+    position: relative;
+    padding: 15px;
+    font-weight: 650;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Montaga', serif;
+    background-color: whitesmoke;
+    color: black; }
+    .presentacion a:hover {
+      background-color: black;
+      transition: 0.45s;
+      color: rgba(240, 248, 255, 0.842);
+      border: solid rgba(240, 248, 255, 0.842) 1px; }
+
+/* seccion de compras populares*/
+.prodPopulares {
+  background-color: black; }
+  .prodPopulares p {
+    background-color: black;
+    font-family: 'Montaga', serif;
+    color: rgba(240, 248, 255, 0.842);
+    text-align: center;
+    margin-bottom: 5px; }
+  .prodPopulares h2 {
+    background-color: black;
+    font-family: 'Montaga', serif;
+    color: rgba(240, 248, 255, 0.842);
+    text-align: center;
+    margin-bottom: 45px; }
+  .prodPopulares div {
+    font-family: 'Gentium Basic', serif;
+    font-size: 20px; }
+    .prodPopulares div div h2 {
+      font-family: 'Gentium Basic', serif;
+      font-size: 25px; }
+    .prodPopulares div div a {
+      display: flex;
+      justify-content: center; }
+
+/*inicio del footer*/
+footer {
+  background-color: black; }
+
+.footer {
+  margin-top: 200px;
+  background-color: black; }
+
+/*redes sociales*/
+.redesSociales h4 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 15px;
+  color: rgba(240, 248, 255, 0.842); }
+
+.redesSociales nav ul li {
+  display: inline-block;
+  margin: 15px; }
+
+/*seccion de ayuda del footer*/
+.ayudaFooter h4 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(240, 248, 255, 0.842);
+  margin-bottom: 15px; }
+
+.ayudaFooter nav ul p {
+  font-family: 'Gentium Basic', serif;
+  font-size: 15px;
+  color: rgba(240, 248, 255, 0.842);
+  margin: 4px; }
+
+/*seccion de suscripcion al newsletter*/
+.newsletter p {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  color: rgba(240, 248, 255, 0.842);
+  margin-bottom: 3px; }
+
+/*derechos reservados footer*/
+.derechos h5 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 15px;
+  color: rgba(240, 248, 255, 0.842); }
+
+.derechos a {
+  text-decoration: none;
+  font-family: 'Gentium Basic', serif;
+  color: rgba(240, 248, 255, 0.842); }

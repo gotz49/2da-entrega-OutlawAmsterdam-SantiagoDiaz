@@ -1,0 +1,44 @@
+
+//flex utilizado para los input
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+// input para rellenar en las secciones de registro, iniciar sesion y recuperar contraseña
+%input{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(3, 3, 3);
+    width: 400px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+//boton importante para las secciones de registro, iniciar sesion y recuperar contraseña
+%importantButton{
+    margin: 5px;
+    padding: 5px;
+    background-color: $importantColor;
+    width: 200px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    text-transform: uppercase;
+    font-size: 13px;  
+}
+
+//mapa de los colores, los mismos estan hechos con variables
+$colores: (
+    hover: $hoverOscuro,
+    principal: $blancoPrincipal,
+    importante: $importantColor,
+    blanco: $blancoLlamativo,
+    background: $background,
+    normal: $letraNormal,
+    
+);

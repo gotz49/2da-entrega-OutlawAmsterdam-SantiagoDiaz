@@ -1,13 +1,11 @@
 @import "../utilities/variables";
+@import "../utilities/mixins";
 
 .lookbook{
     font-family: 'Montaga', serif;
-    color: $blancoPrincipal;
+    color: map-get($map: $colores, $key:blanco );
     section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex;
         h2{
             margin-top: 10px;
             margin-bottom: 20px;

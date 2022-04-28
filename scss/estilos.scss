@@ -4,6 +4,7 @@
 @import "secciones/lookbook";
 @import "secciones/passrecover";
 @import "secciones/cuentanueva";
+@import "utilities/mixins";
 
 /*RESET*/
 
@@ -16,17 +17,17 @@
 //hoja de estilos del index
 
 body{
-    background-color: black;
+    background-color: map-get($map: $colores, $key:background );
 }
 
 main{
-    background-color: black;
+    background-color: map-get($map: $colores, $key:background );
 }
 
 /*estilos para la PRESENTACION*/
 
 .presentacion{
-    background-color: black;
+    background-color: map-get($map: $colores, $key:background );
     background-image: url(../img/home/fondoindex.jpeg);
     padding: 400px 100px;
     background-position: center center;
@@ -38,7 +39,7 @@ main{
         text-align: center;
         position: relative;
         font-family: 'Montaga', serif;
-        color: $blancoLlamativo;
+        color: map-get($map: $colores, $key:blanco );
         font-weight: 550;
     }
     h1{
@@ -46,7 +47,7 @@ main{
         margin: 10px;
         text-align: center;
         font-family: 'Montaga', serif;
-        color: $blancoLlamativo;
+        color: map-get($map: $colores, $key:blanco );
     }
     a{
         position: relative;
@@ -56,12 +57,12 @@ main{
         font-size: 11px;
         font-family: 'Montaga', serif;
         background-color: whitesmoke;
-        color: black;
+        color: map-get($map: $colores, $key:background );
         &:hover{
-        background-color: black;
+        background-color: map-get($map: $colores, $key:background );
         transition: 0.45s;
-        color: $blancoPrincipal;
-        border: solid $blancoPrincipal 1px;
+        color: map-get($map: $colores, $key:blanco );
+        border: solid map-get($map: $colores, $key:blanco ) 1px;
         }
     }
 }
@@ -69,18 +70,18 @@ main{
 /* seccion de compras populares*/ 
 
 .prodPopulares{
-    background-color: black;
+    background-color: map-get($map: $colores, $key:background );
     p{
-        background-color: black;
+        background-color: map-get($map: $colores, $key:background );
         font-family: 'Montaga', serif;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
         text-align: center;
         margin-bottom: 5px;
     }
     h2{
         background-color: black;
         font-family: 'Montaga', serif;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
         text-align: center;
         margin-bottom: 45px;
     }
@@ -103,11 +104,11 @@ main{
 
 /*inicio del footer*/
 footer{
-background-color: black;
+background-color: map-get($map: $colores, $key:background );
 }
 .footer{
 margin-top: 200px;
-background-color: black;
+background-color: map-get($map: $colores, $key:background );
 }
 
 
@@ -116,7 +117,7 @@ background-color: black;
     h4{
         font-family: 'Gentium Basic', serif;
         font-size: 15px;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
     }
     nav{
         ul{
@@ -134,7 +135,7 @@ background-color: black;
         font-family: 'Gentium Basic', serif;
         font-size: 20px;
         text-transform: uppercase;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
         margin-bottom: 15px;
     }
     nav{
@@ -142,7 +143,7 @@ background-color: black;
             p{
                 font-family: 'Gentium Basic', serif;
                 font-size: 15px;
-                color: $blancoPrincipal;
+                color: map-get($map: $colores, $key:blanco );
                 margin: 4px;
             }
         }
@@ -154,7 +155,7 @@ background-color: black;
     p{
         font-family: 'Gentium Basic', serif;
         font-weight: 400;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
         margin-bottom: 3px;
     }
 }
@@ -164,11 +165,11 @@ background-color: black;
     h5{
         font-family: 'Gentium Basic', serif;
         font-size: 15px;
-        color: $blancoPrincipal;
+        color: map-get($map: $colores, $key:blanco );
     }
     a{
         text-decoration: none;
         font-family: 'Gentium Basic', serif;
-        color: $blancoPrincipal;    
+        color: map-get($map: $colores, $key:blanco );   
     }
 }

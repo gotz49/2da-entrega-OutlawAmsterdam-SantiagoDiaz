@@ -1,8 +1,11 @@
 /*seccion de la TIENDA*/ 
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
 
 .tienda{
     font-family: 'Gentium Basic', serif;
-    color: rgba(240, 248, 255, 0.842);
+    color: map-get($map: $colores, $key:blanco );
     text-transform: uppercase;
     h1{
         display: flex;
